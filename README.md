@@ -26,6 +26,10 @@ https://user-images.githubusercontent.com/51034700/163469103-f6d10550-39be-4373-
 
 https://user-images.githubusercontent.com/51034700/163468905-1bf3b816-e044-4f8d-a306-c955b7893f88.mp4
 
+#### Disgust
+
+https://user-images.githubusercontent.com/51034700/163470990-0a39f743-2ea1-4f91-8bd7-8b1c74dbb8d4.mp4
+
 
 ## Self Evaluation
 
