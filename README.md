@@ -18,7 +18,13 @@ The three files that contain the project code are CringevsPain.ipynb, CringevsDi
 The dynamic data has already been collected from sources, such as YouTube and Giphy. In addition, this data has been processed through OpenFace, which extracts features such as action units, from the videos. The dynamic samples were edited and cropped so that only one face is annotated per sample. The FeatureExtraction.ipynb is the code used to run samples through OpenFace. This file first installs OpenFace and then passes in the relevant mp4 files. This dataset is available in the Dataset(.csv) folder where the csv files are separated for each emotion. 
 
 ### Example Data
+#### Cringe
 
+https://user-images.githubusercontent.com/51034700/163469103-f6d10550-39be-4373-b513-7fc15c4703a5.mp4
+
+#### Pain
+
+https://user-images.githubusercontent.com/51034700/163468905-1bf3b816-e044-4f8d-a306-c955b7893f88.mp4
 
 
 ## Self Evaluation
