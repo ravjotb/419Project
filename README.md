@@ -9,6 +9,23 @@ The use of the word cringe to describe uncomfortable, awkward, and even embarras
 * FFMPEG
 * OpenFace
 
+### Libraries Used
+
+https://scikit-learn.org/stable/index.html
+
+https://pandas.pydata.org/
+
+https://matplotlib.org/3.5.0/index.html
+
+https://docs.python.org/3/library/glob.html
+
+https://docs.python.org/3/library/sys.html
+
+https://seaborn.pydata.org/generated/seaborn.heatmap.html
+
+https://docs.python.org/3/library/statistics.html
+
+
 ## Getting Started
 
 ### Requirements
