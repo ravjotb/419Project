@@ -4,7 +4,7 @@
 
 The use of the word cringe to describe uncomfortable, awkward, and even embarrassing phenomena has become increasingly popular in Western society. Currently, there is limited research around the facial expression that is induced by modern cringe definitions, making it hard to distinguish from neighboring expressions. We address this by differentiating action units induced from cringe-worthy scenarios to other nearby social signals, such as pain and disgust. We collected dynamic samples of facial expressions as a result of cringe, pain, and disgust and trained a Support Vector Machine using this data.
 
-### Built With
+## Built With
 * Python
 * FFMPEG
 * OpenFace
@@ -17,21 +17,24 @@ The three files that contain the project code are CringevsPain.ipynb, CringevsDi
 
 The dynamic data has already been collected from sources, such as YouTube and Giphy. In addition, this data has been processed through OpenFace, which extracts features such as action units, from the videos. The dynamic samples were edited and cropped so that only one face is annotated per sample. The FeatureExtraction.ipynb is the code used to run samples through OpenFace. This file first installs OpenFace and then passes in the relevant mp4 files. This dataset is available in the Dataset(.csv) folder where the csv files are separated for each emotion. 
 
-### Example Data
-#### Cringe
+## Example Data
+ 
+### Cringe
 
 https://user-images.githubusercontent.com/51034700/163469103-f6d10550-39be-4373-b513-7fc15c4703a5.mp4
 
-#### Pain
+### Pain
 
 https://user-images.githubusercontent.com/51034700/163468905-1bf3b816-e044-4f8d-a306-c955b7893f88.mp4
 
-#### Disgust
+### Disgust
 
 https://user-images.githubusercontent.com/51034700/163470990-0a39f743-2ea1-4f91-8bd7-8b1c74dbb8d4.mp4
 
 
 ## Self Evaluation
 
+In our proposal, we aimed to detect social signals of cringe from social signals of nearby neighbors. Although we were able to compare it with pain and disgust, another important neighbour to consider would have been embarrassment. However, this additional social signal was skipped due to time constraints. Pain and disgust were also prominent social signals that we came accross when digging for cringe expressions. 
 
+For the code and analysis portion, we used PCA, GMM, SVM and cross-validation, as set out in the proposal. When detecting cringe expressions against disgust on its own or pain on its own, the accuracy and F1 scores were both ~93%. When classifying the three facial expressions in the same run, the test performance dropped to about ~89%. This is an acceptable accuracy level for our model, given that the expectation was that nearby social signals were going to be easily confused with cringe. 
 
