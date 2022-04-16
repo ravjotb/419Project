@@ -56,7 +56,9 @@ https://user-images.githubusercontent.com/51034700/163470990-0a39f743-2ea1-4f91-
 
 ## Self Evaluation
 
-In our proposal, we aimed to detect social signals of cringe from social signals of nearby neighbors. Although we were able to compare it with pain and disgust, another important neighbour to consider would have been embarrassment. However, this additional social signal was skipped due to time constraints. Pain and disgust were also prominent social signals that we came accross when digging for cringe expressions. 
+In our proposal, we aimed to detect social signals of cringe from social signals of nearby neighbors. Although we were able to compare it with pain and disgust, another important neighbour to consider would have been embarrassment. However, this additional social signal was skipped due to time constraints. Pain and disgust were prioritized, because they prominent social signals that we came accross when digging for cringe expressions. 
 
-For the code and analysis portion, we used PCA, GMM, SVM and cross-validation, as set out in the proposal. When detecting cringe expressions against disgust on its own or pain on its own, the accuracy and F1 scores were both ~93%. When classifying the three facial expressions in the same run, the test performance dropped to about ~89%. This is an acceptable accuracy level for our model, given that the expectation was that nearby social signals were going to be easily confused with cringe. 
+For the code and analysis portion, we used PCA, GMM, SVM and cross-validation, as set out in the proposal. When detecting cringe expressions against disgust on its own or pain on its own, the accuracy and F1 scores were both ~60%. This is relatively poor accuracy when classifying two social signals, as most of the accurate results could be attributed purely to chance. 
+
+When classifying the three facial expressions in the same run, the test performance dropped to about ~89%. This is an acceptable accuracy level for our model, given that the expectation was that nearby social signals were going to be easily confused with cringe. 
 
